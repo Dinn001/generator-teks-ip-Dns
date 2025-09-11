@@ -137,6 +137,9 @@
       setTimeout(() => {
         resultDiv.innerHTML = `
           <p>Hasil:</p>
+          <p style="margin:10px 0; font-size:1.1rem; color:#fff; background:#222; padding:10px; border-radius:8px;">
+            ${message}
+          </p>
           <img src="${apiUrl}" alt="Generated Image">
           <br>
           <a class="download-btn" href="/api/download?url=${encodeURIComponent(apiUrl)}">⬇️ Download</a>
