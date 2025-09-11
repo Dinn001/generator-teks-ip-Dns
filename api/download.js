@@ -1,5 +1,3 @@
-
-// api/download.js
 export default async function handler(req, res) {
   try {
     const { url } = req.query;
@@ -8,7 +6,7 @@ export default async function handler(req, res) {
       return res.status(400).json({ error: "URL gambar tidak ada" });
     }
 
-    const response = await fetch(url); // pakai fetch bawaan Node.js
+    const response = await fetch(url);
     if (!response.ok) {
       return res.status(500).json({ error: "Gagal mengambil gambar" });
     }
