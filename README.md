@@ -19,8 +19,7 @@ Dibuat dengan **HTML, CSS, dan JavaScript** — tanpa framework rumit.
 ---
 
 ## 🔗 Preview
-👉 [Lihat Website](https://your-demo-link.com)  
-
+<img src="https://raw.githubusercontent.com/Dinn001/generator-teks-ip-Dns/assets/preview.png" width="300"/>
 ---
 
 ## 👨‍💻 Author
